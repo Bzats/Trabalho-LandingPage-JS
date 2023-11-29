@@ -1,0 +1,558 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{ 
+    max-width: 100%;
+    display: block;
+}
+
+/*Começo Logo */
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #191e24; 
+}
+.cabecalho{
+    display: flex;    
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    padding: 8px;
+}
+
+.logo img{
+    padding-right: 100px;
+    padding-left: 100px;
+    width:700px ;
+    height: 100px;
+    margin-left: 100px;
+}
+.menu ul{
+    display: flex;
+    gap: 40px;
+    margin-left: 1000px;
+    
+}
+.menu ul li{
+    list-style: none;
+    text-transform: uppercase;
+    margin-left: 70;
+    
+}
+.menu ul li a{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+}
+.menu ul li a:hover{
+    color: red;
+}
+
+/*Começo Logo */
+
+/*Começo Banner */
+
+.banner {
+    height: 890px;
+    background-image: url(Imagens/Jason3.0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;    
+}
+.container{
+    padding-top: 400px;
+}
+.banner-text h1{
+    margin-left: -05px;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-weight: 800;
+    color:#fff;
+    font-size: 160px;
+}
+.banner-text a{
+    text-decoration: none;
+}
+.banner .bannerlink a{
+    font-size: 25px;
+    color:#fff;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-right: 15px;
+    line-height: 25px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.banner .bannerlink a:hover{
+    color: black;
+}
+
+/* Fim Banner*/
+
+/*Começo Anúncio*/
+.anuncio-flex{
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    align-items: baseline;
+
+}
+.imagem1-anuncio img{
+    width: 790px;
+    border: #fff;
+    height: 190px;
+    border-style: solid;
+    border-left-width: 0px;
+    border-bottom-width: 4px;
+    border-top-width: 4px;
+}
+.imagem2-anuncio img{
+    width: 790px;
+    height: 190px;
+    border: #fff;
+    border-style: solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 4px;
+    border-top-width: 4px;
+}
+.imagem3-anuncio img{
+    width: 790px;
+    height: 190px;
+    border: #fff;
+    border-style: solid;
+    border-right-width: 0px;
+    border-bottom-width: 4px;
+    border-top-width: 4px;
+}
+/*Fim Anúncio*/
+
+/*Começo Notícia*/
+.noticia{
+    padding-left: 470px;
+    padding-right: 470px
+}
+.noticia h2{
+    border-bottom: 4px solid #262F3A;
+    margin-bottom: 40px;
+    margin-bottom: 24px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    color: #63778D;
+}
+.container-noticias{
+    background-image: url(Imagens/PlanoDeFundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.noticias{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 945px;
+    height: 580px;
+    margin: 0 auto;    
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.noticias > div {
+    flex: 1 1 290px;
+    width: 600px;
+    margin: 10px;
+}
+.noticia{
+    padding-top: 40px;
+}
+.texto-noticia{
+    color: #fff;
+    text-shadow: -1px 1px 0  rgba(0,0,0,0.30);;
+    line-height: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.texto-noticia1 {
+    padding-top: 140px;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.texto-noticia1 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.texto-noticia1 a:hover {
+    color: red;
+}
+.texto-noticia2{
+    margin-top: 0px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 140px; 
+}
+.texto-noticia2 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.texto-noticia2 a:hover {
+    color: red;
+}
+.texto-noticia3{
+    margin-top: 0px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 140px;
+}
+.texto-noticia3 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.texto-noticia3 a:hover {
+    color: red;
+}
+.texto-noticia4{
+    margin-top: 0px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 220px;
+}
+.texto-noticia4 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.texto-noticia4 a:hover {
+    color: red;
+}
+.texto-noticia5{
+    margin-top: 0px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 220px;
+}
+.texto-noticia5 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.texto-noticia5 a:hover {
+    color: red;
+}
+.div1{
+    color: #fff;
+    background-image: url(Imagens/Jason1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    width: auto;
+}
+.div2{
+    color: #fff;
+    background-image: url(Imagens/Jason2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    width: auto;
+}
+.div3{
+    color: #fff;
+    background-image: url(Imagens/Jason4.jpg);
+    background-size:auto;
+    background-position: center center;
+    height: 200px;
+    width: auto;
+}
+.div4{   
+    color: #fff;
+    background-image: url(Imagens/Jason5.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 305px;
+    width: auto;
+}
+.div5{
+    color: #fff;
+    background-image: url(Imagens/Jason6.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 305px;
+    width: auto;
+}
+/*Fim Notícia*/
+
+/*Começo Linha*/
+.linha {
+    background-color: #191e24;
+    height: 300px;
+    padding-left:480px;
+    padding-right: 470px;
+}
+.linha h2{
+    border-bottom: 4px solid #63778D;
+    padding-bottom: 15px;
+    font-size: 30px;
+    color: #63778D;
+    padding-top: 40px;
+}
+.plataformas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 40px;
+}
+
+/*Fim Linha*/
+
+/*Começo Criadores*/
+
+.criadores{
+    background-image: url(Imagens/PlanoDeFundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+}
+.criadores-conteudo{   
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+    width: 1200px;
+    padding-left: 200px;
+
+
+}
+.criadores-conteudo a{
+    text-decoration: none;
+    color: #fff;
+}
+.criadores-conteudo a:hover{
+    color: red;
+}
+.container-conteudo h4{
+    border-bottom: 4px solid #262F3A;
+    padding-bottom: 15px;
+    font-size: 30px;
+    color: #63778D;
+    padding-top: 40px;
+}
+.container-conteudo{
+    padding-left: 470px;
+    padding-right: 470px;
+    height: 300px;
+    font-size: 18px;
+}
+.criador1{
+    height: 205px;
+    width: 50%;
+    left: 200px;
+}
+
+.criador1 img{
+    display: block;
+    width: 400px;
+}
+.texto-criador1 a{
+    font-size: 25px;
+}
+.texto-criador2 a{
+    font-size: 25px;
+}
+.texto-criador3 a{
+    font-size: 25px;
+}
+.texto-criador4 a{
+    font-size: 25px;
+}
+.texto-criador5 a{
+    font-size: 25px;
+}
+.texto-criador6 a{
+    font-size: 25px;
+}
+.criador2{
+    height: 205px;
+    width: 50% ;
+}
+.criador2 img{
+    display: block;
+    width: 400px;
+    height: 220px;
+}
+.criador3{
+    height: 205px;
+    width: 50% ;
+}
+.criador3 img{
+    display: block;
+    width: 400px;
+}
+.criador4{
+    height: 205px;
+    width: 50% ;
+}
+.criador4 img{
+    display: block;
+    width: 400px;
+    height: 220px;
+}
+.criador5{
+    height: 05px;
+    width: 50% ;
+}
+.criador5 img{
+    display: block;
+    width: 400px;
+}
+.criador6{
+    height: 205px;
+    width: 50% ;
+}
+.criador6 img{
+    display: block;
+    width: 400px;
+}
+
+/*Começo Forms */
+
+
+.form form, .form fieldset{
+    display: flex;
+    flex-direction: column;
+}
+
+.form fieldset{
+    width: 500px;
+    border: 0px;
+}
+.form form button{
+    width: 500px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    border: 0px;
+    margin-top: 20px;
+}
+.form form button:hover{
+    background-color: #912b33;
+    border-radius: 6px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    background-color: #191e24;
+    color: #fff;
+}
+.form fieldset legend{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: var(--font-bold);
+}
+.form fieldset label{
+    margin: 20px 0 3px 0;
+    text-transform: uppercase;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: 0;
+}
+legend{
+    color: #63778D;
+    border-bottom: 4px solid #63778D;
+}
+
+
+/*Começo Footer */
+
+footer {
+    background: #101010;
+    height: 900px;
+}
+footer .container{
+    position: static;
+    bottom:180px;
+}
+
+.single-box p {
+    color: #fff;
+    line-height: 1.9;
+}
+
+.single-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.single-box .card-area i {
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.single-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.single-box ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 2.5;
+    font-weight: 100;
+}
+
+.single-box h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#basic-addon2 {
+    background: #fe1e4f;
+    color: #fff;
+}
+
+.socials i {
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+@media (max-width: 767px) {
+    .single-box {
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-box {
+        margin-bottom: 50px;
+    }
+
+}
+
+/* Fim Footer*/
+
